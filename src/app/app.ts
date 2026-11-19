@@ -17,12 +17,12 @@ export class App {
   nombreTienda: string = 'Tienda Central';
   encargado: string = 'Cesar Ayaviri';
   numeroSucursal: number = 1;
-  tiendaAbierta: boolean = false;
-  categorias: string[] = ['Electrónica', 'Accesorios', 'Hogar'];
+  tiendaAbierta: boolean = true;
+  categorias: string[] = ['Electrónica', 'Accesorios', 'Hogar', 'Oficina'];
 
   producto: Producto = {
-    nombre: 'Smartphone Galaxy A55',
-    precio: 2450,
-    disponible: false,
+    nombre: 'Mochila Antirrobo 15.6"',
+    precio: 220,
+    disponible: true,
   };
 }
